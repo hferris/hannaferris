@@ -1,78 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-
-    <head>
-        <meta charset="UTF-8">
-        <title>Porfolio</title>
-        <link rel="stylesheet" type="text/css" href="./Assets/style.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>  
-    <header>
-        <nav>
-                <a href="#aboutMe">About Me</a>
-                <a href="#myWork">My Work</a>
-                <a href="#contactInfo">Contact Information</a>
-               
-                    <a href="./Assets/pdfs/Ferris Resume.pdf" target="_blank"><i class="fa fa-file" style="font-size:30px;"></i></a>
-                    <a href="https://github.com/hferris" target="_blank"><i class="fa fa-github" style="font-size:30px"></i></a>
-                    <a href="https://www.linkedin.com/in/hanna-ferris/" target="_blank"><i class="fa fa-linkedin" style="font-size:30px"></i></a>
-                    
-               
-        </nav>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body style="background-color:  lightskyblue;">
+    <nav class="navbar navbar-expand-lg navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="./index.html">HF</a>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutMe">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#meWork"> My Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contactInfo">Contact Information</a>
+            </li>
+          </ul>
+        </div>
+        <ul class="list-group list-group-horizontal">
+          <li class="list-group-item">
+            <a href="./assets/pdfs/Ferris_Resume.pdf" target="_blank"><i class="fa fa-file" style="font-size:30px; color: white;"></i></a>
+          </li>
+          <li class="list-group-item">
+            <a href="https://github.com/hferris" target="_blank"><i class="fa fa-github" style="font-size:30px; color: white;"></i></a>
+          </li>
+          <li class="list-group-item">
+            <a href="https://www.linkedin.com/in/hanna-ferris/" target="_blank"><i class="fa fa-linkedin" style="font-size:30px; color: white;"></i></a>
+          </li>
+        </ul>
+      </nav>
+      <div class="row" style="background-color:  lightskyblue;">
         
-        
-    
-    </header>
-    <body>
-        <div id="container1">
+          <div id="container1">
 
-        <!--ABOUT ME SECTION-->
-        
-
-        <img id="mainImg" src="./Assets/imgs/professional-picture.png">
-        <section id="aboutMe"> 
-        <h1>Hanna Ferris</h1> 
-
-            <p>
-                Welcome to my digital portfolio, my name is Hanna Ferris. I graduated from the University of Dubuque with a Bachelor of Business Administration in Marketing and Communication Minor. 
-                I am currently working to get a Web Development Certificate by taking on a full-stack coding program, through Trilogy at the University of Arizona with an expected graduation date of May 10, 2021. 
-                Upon graduation, I want to be able to incorporate my marketing degree with the certificate to land a career in the IT industry. 
-                My goal is to become a Business Analyst or Quality Assurance Specialist in a company, where I’ll be able to utilize my background in marketing and my talents in Web Development to strengthen business requirements within IT. 
-
-            </p>
+            <!--ABOUT ME SECTION-->
             
-        </section>
-    </div>
-        
-        <!--MY WORK SECTINON -->
-        <div id="container2">
-            <section id="featuredWork">
-                <h1>Project 1</h1>
-                <a href="https://github.com/hferris/Code-Refactor"><img src="./Assets/imgs/girl-refactor.jpg" alt="girl refactoring code"></a>
+            <img id="mainImg" src="./assets/imgs/professional-picture.png">
+            <div id="aboutMe"> 
+            <h1>Hanna Ferris</h1> 
     
-            </section>
-
-            <section id="myWork">
-                <h2>Project 2</h2>
-                <h2>Project 3</h2>
-                <a href="https://github.com/hferris/Code-Refactor"><img src="./Assets/imgs/girl-refactor.jpg" alt="girl refactoring code"></a>
+                <p>
+                    Welcome to my digital portfolio, my name is Hanna Ferris. I graduated from the University of Dubuque with a Bachelor of Business Administration in Marketing and Communication Minor. 
+                    I am currently working to get a Web Development Certificate by taking on a full-stack coding program, through Trilogy at the University of Arizona with an expected graduation date of May 10, 2021. 
+                    Upon graduation, I want to be able to incorporate my marketing degree with the certificate to land a career in the IT industry. 
+                    My goal is to become a Business Analyst or Quality Assurance Specialist in a company, where I’ll be able to utilize my background in marketing and my talents in Web Development to strengthen business requirements within IT. 
+    
+                </p>
                 
-                <a href="https://github.com/hferris/Code-Refactor"><img src="./Assets/imgs/girl-refactor.jpg" alt="girl refactoring code"></a>
-                
-            </section>
+              </div>
         </div>
-        <!--CONTACT INFO SECTION-->
-        <div id="container3">
-         
-               <h1>Contact Me</h1> 
-              
-                <p>Phone Number: (847) 445-8507</p>
-               
+      </div>
+      <div id="meWork" class="card-deck text-center" style="background-color:  lightskyblue;">
+          <div class="card mr-4 ml-4">
+            <img src="assets/imgs/code-quiz.png" class="card-img-top mx-auto" alt="..." >
+            <div class="card-body">
+              <h5 class="card-title">Code Quiz Project</h5>
+              <a href="https://github.com/hferris/Code-Quiz" target="_blank" class="card-link">REPO Link</a>
+              <a href="https://hferris.github.io/Code-Quiz/" target="_blank" class="card-link">Project link</a>
+            </div>
+          </div>
+          <div class="card mr-4">
+            <img src="./assets/imgs/pw-gen.png" class="card-img-top mx-auto" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Password Generator Project</h5>
+              <a href="https://github.com/hferris/Password-Generator" target="_blank" class="card-link">REPO Link</a>
+              <a href="https://hferris.github.io/Password-Generator/" target="_blank" class="card-link">Project Link</a>
+            </div>
+          </div>
+      </div>
+      <br>
+        <div class="card text-center bg-info" id="contactInfo">
+          <h2 class="card-header">
+            Contact Me
+          </h2>
+          <div class="card-body" style="background-color:  lightskyblue;">
+            <blockquote class="blockquote mb-0">
+              <p>Phone Number: (847) 445-8507</p>
                 <p>Email: hferris@dbq.edu</p>
-         
+            </blockquote>
+          </div>
         </div>
-
-    </body>
-
+    
+</body>
 </html>
-
